@@ -24,4 +24,32 @@ To demonstrate compliance with the error recovery cleanup metrics:
 2. Name your sandbox placeholder `trap_test`.
 3. When prompted to select a roster construction build option, press `Ctrl + C`.
 4. Run `ls` in your terminal: the `attendance_tracker_trap_test` folder will be completely wiped from the directory tree, and a clean `attendance_tracker_trap_test_archive.zip` recovery asset will be securely left in its place.
+ 
 
+                        This My flow chart
+                     ┌───────────────────────────────┐
+                     │       START SYSTEM RUN        │
+                     └───────────────┬───────────────┘
+                                     │
+                                     ▼
+                       Check Command Arguments 
+                                     │
+             ┌───────────────────────┴───────────────────────┐
+             │ (No Flags)                                    │ (With Flags)
+             ▼                                               ▼
+┌───────────────────────────────┐               ┌───────────────────────────────┐
+│     RUN INTERACTIVE MENU      │               │   ROUTE TO SPECIFIC FEATURE   │
+│   options from 1 to 4         │               │ (deploy | run | archive)      │
+└────────────┬──────────────────┘               └──────────────┬────────────────┘
+             │                                                 │
+   ┌─────────┼─────────┐                                       │
+   ▼         ▼         ▼                                       ▼
+Option 1  Option 2  Option 3                             [ Execute Code ]
+   │         │         │                                       │
+   ▼         ▼         ▼                                       ▼
+┌───────┐ ┌───────┐ ┌───────┐                            (Process Ends)
+│Deploy │ │Run App│ │Archive│
+└─┬─────┘ └─┬─────┘ └─┬─────┘
+  │         │         │
+  ▼         ▼         ▼
+Flow 1    Flow 2    Flow 3

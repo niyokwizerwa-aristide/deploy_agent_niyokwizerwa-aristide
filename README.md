@@ -24,6 +24,9 @@ To demonstrate compliance with the error recovery cleanup metrics:
 2. Name your sandbox placeholder `trap_test`.
 3. When prompted to select a roster construction build option, press `Ctrl + C`.
 4. Run `ls` in your terminal: the `attendance_tracker_trap_test` folder will be completely wiped from the directory tree, and a clean `attendance_tracker_trap_test_archive.zip` recovery asset will be securely left in its place.
+   
  
+**#Video Link for more help**
+https://drive.google.com/drive/folders/1nLLZvXnGXtfYP0pp52SOF6r36zhybrZ4
 
    
